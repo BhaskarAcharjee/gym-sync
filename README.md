@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Gym Sync
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot (333)](https://github.com/BhaskarAcharjee/gym-sync/assets/76872572/023b28d8-decc-4df5-993d-a1408e16bded)
 
-## Available Scripts
+Gym Sync is a web application designed to provide users with a comprehensive tutorial for various muscle exercises. It leverages React.js and integrates with the Muscle DB API via RapidAPI to fetch exercise data. With Gym Sync, users can easily search for specific exercises, filter exercises based on muscle groups, and access detailed tutorials with demos.
+## Live Demo
 
-In the project directory, you can run:
+Check out the live demo of Gym Sync : [Gym Sync](https://gym-sync-vercel.app)
 
-### `npm start`
+## Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot (334)](https://github.com/BhaskarAcharjee/gym-sync/assets/76872572/c1c041f0-f691-462f-a65f-cd40dbaa4701)
+![Screenshot (335)](https://github.com/BhaskarAcharjee/gym-sync/assets/76872572/e0291e7f-184d-405f-8040-20ad96d39d05)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Quick Rendering:** Gym Sync ensures fast loading times and smooth user experience.
+- **Data Fetching:** Exercise data is fetched from the Muscle DB API, providing up-to-date information.
+- **Search and Filter:** Users can search for specific exercises and filter exercises based on muscle groups.
+- **MultiPage Site:** Gym Sync offers a multi-page experience within a single website, allowing users to navigate through different sections seamlessly.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React.js:** Gym Sync is built using React.js, a popular JavaScript library for building user interfaces.
+- **React Hooks:** Utilizes React Hooks such as useState and useEffect for managing state and side effects.
+- **RapidAPI:** Integrates with the Muscle DB API via RapidAPI to fetch exercise data.
+- **YouTube API:** Utilizes the YouTube API for embedding exercise demonstration videos.
+- **Vercel:** The project is deployed using Vercel, providing a fast and reliable hosting solution.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **ExerciseDB API:** Fetches exercise data including muscle groups, equipment, and tutorials.
+  - [ExerciseDB API](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Youtube Search and Download API:** Fetches exercise demonstration videos for tutorials.
+  - [YouTube API](https://rapidapi.com/h0p3rwe/api/youtube-search-and-download/)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run Gym Sync locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository: `git clone https://github.com/BhaskarAcharjee/gym-sync.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Set environment variable
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Open Gym Sync in your web browser.
+2. Use the search bar to find specific exercises.
+3. Filter exercises based on muscle groups using the provided options.
+4. Click on an exercise to view detailed tutorials and demonstration videos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome! If you'd like to contribute to Gym Sync, please fork the repository and create a pull request with your proposed changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
