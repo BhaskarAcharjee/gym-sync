@@ -10,7 +10,12 @@ const HeroBanner = () => {
       position="relative"
       p="20px"
     >
-      <Typography color="#ff2625" fontWeight="600" fontSize="26px" sx={{ mt: { lg: "-130px", xs: "0" }}}>
+      <Typography
+        color="#ff2625"
+        fontWeight="600"
+        fontSize="26px"
+        sx={{ mt: { lg: "-130px", xs: "0" } }}
+      >
         Fitness Hub
       </Typography>
 
@@ -20,10 +25,11 @@ const HeroBanner = () => {
         mb="23px"
         mt="30px"
       >
-        Sweat, Shine, and <br/>Keep Pushing
+        Sweat, Shine, and <br />
+        Keep Pushing
       </Typography>
       <Typography fontSize="22px" lineHeight="30px" mb={4}>
-      Achieve Your Fitness Goals, One Workout at a Time
+        Achieve Your Fitness Goals, One Workout at a Time
       </Typography>
       <Button
         variant="contained"

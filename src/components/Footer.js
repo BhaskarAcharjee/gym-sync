@@ -24,6 +24,7 @@ const Footer = () => (
       <a
         href="https://bhaskaracharjee.vercel.app/"
         style={{ textDecoration: "none", color: "#000" }}
+        target="_blank"
       >
         Bhaskar
       </a>

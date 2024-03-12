@@ -7,7 +7,7 @@ import ExerciseCard from "./ExerciseCard";
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const exercisePerPage = 3;
+  const exercisePerPage = 9;
 
   const indexOfLastExercise = currentPage * exercisePerPage;
   const indexOfFirstExercise = indexOfLastExercise - exercisePerPage;
@@ -19,7 +19,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const paginate = (e, value) => {
     setCurrentPage(value);
 
-    window.scrollTo({ top: 1800, behavior: "smooth" });
+    window.scrollTo({ top: 1600, behavior: "smooth" });
   };
 
   useEffect(() => {
