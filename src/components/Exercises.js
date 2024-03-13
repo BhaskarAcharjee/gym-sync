@@ -46,9 +46,9 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
 
   return (
     <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
-      <Typography variant="h4" mb="46px">
+      <Typography sx={{ fontSize: { lg: "34px", xs:"24px" } }} mb="46px">
         Showing Results...
-      </Typography>
+        </Typography>
       <Stack
         direction="row"
         sx={{ gap: { lg: "110px", sx: "50px" } }}

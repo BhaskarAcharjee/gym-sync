@@ -6,7 +6,7 @@ import Icon from "../assets/icons/gym.png";
 
 const BodyPart = ({ item, bodyPart, setBodyPart }) => {
   // console.log(bodyPart);
-  
+
   return (
     <Stack
       type="button"
@@ -14,13 +14,15 @@ const BodyPart = ({ item, bodyPart, setBodyPart }) => {
       justifyContent="center"
       className="bodyPart-card"
       sx={{
-        borderTop: bodyPart === item ? "4px solid #ff2625" : "",
+        borderTop: bodyPart === item ? "7px solid #ff2625" : "",
         backgroundColor: "#fff",
         borderBottomLeftRadius: "20px",
         width: "270px",
         height: "280px",
         cursor: "pointer",
         gap: "47px",
+        borderRadius: "10px",
+        boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
       }}
       onClick={() => {
         setBodyPart(item);

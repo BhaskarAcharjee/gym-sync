@@ -9,9 +9,9 @@ const ExerciseCard = ({ exercise }) => {
       <Stack direction="row">
         <Button
           sx={{
-            ml: "21px",
+            ml: "12px",
             color: "#fff",
-            background: "#ff19a9",
+            background: "#d53b39",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",
@@ -21,9 +21,9 @@ const ExerciseCard = ({ exercise }) => {
         </Button>
         <Button
           sx={{
-            ml: "21px",
+            ml: "12px",
             color: "#fff",
-            background: "#fcc757",
+            background: "#ff5956",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",

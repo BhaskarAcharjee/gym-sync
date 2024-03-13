@@ -13,23 +13,30 @@ const HeroBanner = () => {
       <Typography
         color="#ff2625"
         fontWeight="600"
-        fontSize="26px"
-        sx={{ mt: { lg: "-130px", xs: "0" } }}
+        sx={{
+          fontSize: { lg: "26px", xs: "20px" },
+          mt: { lg: "-130px", xs: "0" },
+        }}
       >
         Fitness Hub
       </Typography>
 
       <Typography
         fontWeight={700}
-        sx={{ fontSize: { lg: "44px", xs: "40px" } }}
+        sx={{ fontSize: { lg: "44px", xs: "30px" } }}
         mb="23px"
         mt="30px"
       >
         Sweat, Shine, and <br />
         Keep Pushing
       </Typography>
-      <Typography fontSize="22px" lineHeight="30px" mb={4}>
-        Achieve Your Fitness Goals, One Workout at a Time
+      <Typography
+        sx={{ fontSize: { lg: "22px", xs: "18px" } }}
+        lineHeight="30px"
+        mb={4}
+      >
+        Achieve Your Fitness Goals, <br />
+        One Workout at a Time
       </Typography>
       <Button
         variant="contained"
@@ -42,8 +49,11 @@ const HeroBanner = () => {
       <Typography
         fontWeight={600}
         color="#ff2625"
-        sx={{ opacity: 0.1, display: { lg: "block", xs: "none" } }}
-        fontSize={200}
+        sx={{
+          opacity: 0.1,
+          display: "block",
+          fontSize: { lg: "200px", md: "120px", xs: "80px" },
+        }}
       >
         Exercise
       </Typography>

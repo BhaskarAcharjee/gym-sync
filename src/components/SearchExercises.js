@@ -49,6 +49,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       <Typography
         fontWeight={700}
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
+        mt = "70px"
         mb="50px"
         textAlign="center"
       >
@@ -59,7 +60,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         <TextField
           sx={{
             input: { fontWeight: "700", border: "none", borderRadius: "5px" },
-            width: { lg: "800px", xs: "350px" },
+            width: { lg: "800px", md:"600px",sm:"450px", xs: "350px" },
             backgroundColor: "white",
             borderRadius: "40px",
           }}

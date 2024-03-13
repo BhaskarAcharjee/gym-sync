@@ -47,6 +47,10 @@ body {
   flex-wrap: wrap;
 }
 
+.react-horizontal-scrolling-menu--scroll-container {
+  padding: 40px;
+}
+
 .detail-image {
   width: 729px;
   height: 742px;
@@ -58,15 +62,15 @@ body {
   top: 0px;
   width: 70%;
   height: 850px;
-  margin-top: -300px;
+  margin-top: -330px;
 }
 
 .exercise-card {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #ff2625;
-  border-bottom-left-radius: 20px;
+  border-top: 6px solid #ff2625;
+  border-radius: 20px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -119,10 +123,6 @@ body {
     position: static !important;
   }
 
-  .hero-banner-img {
-    display: none;
-  }
-
   .exercise-card {
     width: 320px;
   }
@@ -131,10 +131,57 @@ body {
     width: 320px;
     height: 300px;
   }
+
+  .css-4et2ih-MuiStack-root {
+    gap: 45px !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .exercise-card {
     width: 280px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-banner-img {
+    width: 65%;
+    height: auto;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 880px) {
+  .hero-banner-img {
+    margin-top: -10%;
+  }
+}
+
+@media only screen and (max-width: 880px) and (min-width: 660px) {
+  .hero-banner-img {
+    margin-top: -8%;
+  }
+}
+
+@media only screen and (max-width: 660px) and (min-width: 550px) {
+  .hero-banner-img {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 550px) and (min-width: 440px) {
+  .hero-banner-img {
+    margin-top: 25%;
+  }
+}
+@media only screen and (max-width: 440px) and (min-width: 380px) {
+  .hero-banner-img {
+    margin-top: 35%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .hero-banner-img {
+    display: none;
   }
 }

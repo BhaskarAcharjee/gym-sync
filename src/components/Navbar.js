@@ -4,7 +4,7 @@ import { Stack } from "@mui/material";
 
 import Logo from "../assets/images/gym-sync-logo.png";
 
-export const Navabar = () => {
+export const Navbar = () => {
   return (
     <Stack
       direction="row"
@@ -30,6 +30,9 @@ export const Navabar = () => {
             textDecoration: "none",
             color: "#3A1212",
             borderBottom: "3px solid #FF2625",
+            fontFamily: "Arial, sans-serif",
+            fontStyle: "italic",
+            fontWeight: "bold",
           }}
         >
           Home
@@ -40,7 +43,12 @@ export const Navabar = () => {
             e.preventDefault();
             window.location.href = "/#exercises";
           }}
-          style={{ textDecoration: "none", color: "#3A1212" }}
+          style={{
+            textDecoration: "none",
+            color: "#3A1212",
+            fontFamily: "Arial, sans-serif",
+            fontStyle: "italic",
+          }}
         >
           Exercises
         </a>
@@ -49,4 +57,4 @@ export const Navabar = () => {
   );
 };
 
-export default Navabar;
+export default Navbar;
